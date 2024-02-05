@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="lightbox">
+        <img
+          id="lightbox-image"
+          src="./assets/img/pagina1.webp"
+          alt="Imagen en lightbox"
+        />
+      </div>
+      <section class="principal px-3">
+        <h1>
+          Ejercicios Primer Desafío Fundamentos de programación en JavaScript
+        </h1>
+        <div class="contenedor">
+          <figure>
+            <img
+              src="./assets/img/pagina1.webp"
+              alt="Pagina 1 Requisitos"
+              onclick="showImage(this.src)"
+              title="Haz click para mostrar la imagen en lightbox"
+            />
+            <figcaption>Página 1 de Requisitos</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./assets/img/pagina2.webp"
+              alt="Pagina 2 Requisitos"
+              onclick="showImage(this.src)"
+              title="Haz click para mostrar la imagen en lightbox"
+            />
+            <figcaption>Página 2 de Requisitos</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="ejercicios">
+        <article>
+          <h2 class="fw-bold">Ejercicio 1: Diagrama de Flujo</h2>
+          <figure>
+            <img
+              src="./assets/img/Ejercicio1DiagramaFlujo.png"
+              alt="Diagrama de Flujo"
+            />
+            <figcaption>Diagrama de Flujo</figcaption>
+          </figure>
+        </article>
+        <article>
+          <h2 class="fw-bold">Ejercicios del 2 al 5</h2>
+          <h3>Haz click en algún botón para ejecutar cada ejercicio</h3>
+          <div class="contenedor">
+            <button class="btn btn-primary" onclick="ejercicio2Ejecutar()">
+              Ejecutar ejercicio 2
+            </button>
+            <button class="btn btn-success" onclick="ejercicio3Ejecutar()">
+              Ejecutar ejercicio 3
+            </button>
+            <button class="btn btn-warning" onclick="ejercicio4Ejecutar()">
+              Ejecutar ejercicio 4
+            </button>
+            <button class="btn btn-dark" onclick="ejercicio5Ejecutar()">
+              Ejecutar ejercicio 5
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      Página Web desarrollada por
+      <a
+        href="https://linktr.ee/waldohidalgo"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Waldo Hidalgo Oyarce</a
+      >
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/Ejercicio2.js"></script>
+    <script src="./assets/js/Ejercicio3.js"></script>
+    <script src="./assets/js/Ejercicio4.js"></script>
+    <script src="./assets/js/Ejercicio5.js"></script>
+  </body>
+</html>
