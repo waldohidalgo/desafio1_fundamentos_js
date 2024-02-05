@@ -19,7 +19,7 @@ He creado una página web responsiva de manera rapida usando Bootstrap y CSS Gri
 
 ![Pantallas small](./assets/img/pantallas_small.png)
 
-Además, he creado una lightbox para mostrar los requisitos:
+Además, he creado una lightbox para mostrar la imagen de los requisitos con mayor detalle:
 
 ![LightBox de Imagenes de Requisitos](./assets/img/lightbox.png)
 
