@@ -1,5 +1,5 @@
 body {
-  background-color: yellow;
+  background-color: #fdf0ba;
 }
 
 * {
@@ -78,6 +78,10 @@ button {
       justify-items: center;
     }
   }
+}
+
+.ejercicios article:first-child {
+  background-color: white;
 }
 
 footer {
